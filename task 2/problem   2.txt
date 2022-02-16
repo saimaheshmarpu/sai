@@ -1,0 +1,19 @@
+problem 2 
+Write pseudocode and flowchart for program that prints Nth fibonacci number. (Nth Fibonacci Number denoted as F(N), F(0)=0, F(1)=1, F(2)=1, F(3)=2,…)
+solution 
+This program will allow the user to find the nth term of a fibonacci number series
+Declare the variables currentterm,nextterm,previousterm,nthterm,i as integers
+Ask the user to enter which term they want
+Store the number as nthterm
+
+assign that previousterm=0 
+assign that currentterm=1
+For 
+    i=1 to nth term
+   assign  nextterm=currentterm+previousterm
+	previousterm=currentterm
+	currentterm=nextterm
+when this loop is done, 
+print previous term 
+end
+this a good way to find the nth term in fibonacci series
